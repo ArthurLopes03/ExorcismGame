@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab49a1892e5fc6498fbf72dab45179d, type: 3}
+  m_Name: Factory Worker
+  m_EditorClassIdentifier: 
+  attributeTag: Factory Worker
+  demonAttributePool: []
+  description: 
+  attributesPool:
+  - {fileID: 11400000, guid: 059c7b9a7f2d7ca45be2e4c4a8daf4c6, type: 2}
+  - {fileID: 11400000, guid: 059c7b9a7f2d7ca45be2e4c4a8daf4c6, type: 2}
+  - {fileID: 11400000, guid: 56d0c741f1bd3f944b8fe9dcc970c268, type: 2}
+  - {fileID: 11400000, guid: 56d0c741f1bd3f944b8fe9dcc970c268, type: 2}
+  - {fileID: 11400000, guid: a2936eb7c413d3b4eaf467e6cc76d18e, type: 2}
+  - {fileID: 11400000, guid: a2936eb7c413d3b4eaf467e6cc76d18e, type: 2}
+  - {fileID: 11400000, guid: 8fef6a398793ba34e9410f1bb96fa333, type: 2}
+  - {fileID: 11400000, guid: 0d770be0d7741914289f1b999e56c34c, type: 2}
