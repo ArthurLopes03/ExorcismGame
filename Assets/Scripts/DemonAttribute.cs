@@ -5,6 +5,4 @@ using UnityEngine;
 public abstract class DemonAttribute : ScriptableObject
 {
     public string attributeTag;
-
-    public List<DemonAttribute> incompatibleAttributes;
 }
