@@ -13,4 +13,10 @@ MonoBehaviour:
   m_Name: Lilite
   m_EditorClassIdentifier: 
   attributeTag: Lilite
-  incompatibleAttributes: []
+  tempermentPool:
+  - {fileID: 11400000, guid: 382f13e741491574495d8ffa9ce68718, type: 2}
+  - {fileID: 11400000, guid: 382f13e741491574495d8ffa9ce68718, type: 2}
+  - {fileID: 11400000, guid: 382f13e741491574495d8ffa9ce68718, type: 2}
+  - {fileID: 11400000, guid: 382f13e741491574495d8ffa9ce68718, type: 2}
+  - {fileID: 11400000, guid: 382f13e741491574495d8ffa9ce68718, type: 2}
+  incompatibleTemperment: []

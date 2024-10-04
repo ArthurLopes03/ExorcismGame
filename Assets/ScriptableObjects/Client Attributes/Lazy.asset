@@ -13,5 +13,21 @@ MonoBehaviour:
   m_Name: Lazy
   m_EditorClassIdentifier: 
   attributeTag: Lazy
-  demonAttributePool: []
+  tempermentPool:
+  - {fileID: 11400000, guid: ff0144d427456da429008ce47b0d0b01, type: 2}
+  - {fileID: 11400000, guid: ff0144d427456da429008ce47b0d0b01, type: 2}
+  - {fileID: 11400000, guid: ff0144d427456da429008ce47b0d0b01, type: 2}
+  - {fileID: 11400000, guid: f677d98561d04e040ba1b148a762fafc, type: 2}
+  - {fileID: 11400000, guid: f677d98561d04e040ba1b148a762fafc, type: 2}
+  - {fileID: 11400000, guid: 96dd70b327ce1e5409f56bf4450258ea, type: 2}
+  kingdomPool:
+  - {fileID: 11400000, guid: 77722969e57886c4f8f8cc8b3957428a, type: 2}
+  - {fileID: 11400000, guid: 6ea18e33fdd48574cb309325d8bb615e, type: 2}
+  - {fileID: 11400000, guid: c7a7da8f5620c894288aa2b6d18d3860, type: 2}
+  typePool:
+  - {fileID: 11400000, guid: 4174c47a94f70314c85f82ca5ab08204, type: 2}
+  - {fileID: 11400000, guid: 12120917826303e44a33f77ca625c12a, type: 2}
+  - {fileID: 11400000, guid: 9b712d73dd5e54349a57df6e2a98dd9b, type: 2}
+  - {fileID: 11400000, guid: 9b712d73dd5e54349a57df6e2a98dd9b, type: 2}
+  - {fileID: 11400000, guid: 9b712d73dd5e54349a57df6e2a98dd9b, type: 2}
   description: 

@@ -13,4 +13,12 @@ MonoBehaviour:
   m_Name: Fury
   m_EditorClassIdentifier: 
   attributeTag: Fury
-  incompatibleAttributes: []
+  tempermentPool:
+  - {fileID: 11400000, guid: 96dd70b327ce1e5409f56bf4450258ea, type: 2}
+  - {fileID: 11400000, guid: 96dd70b327ce1e5409f56bf4450258ea, type: 2}
+  - {fileID: 11400000, guid: 96dd70b327ce1e5409f56bf4450258ea, type: 2}
+  - {fileID: 11400000, guid: 96dd70b327ce1e5409f56bf4450258ea, type: 2}
+  - {fileID: 11400000, guid: 382f13e741491574495d8ffa9ce68718, type: 2}
+  - {fileID: 11400000, guid: 382f13e741491574495d8ffa9ce68718, type: 2}
+  incompatibleTemperment:
+  - {fileID: 11400000, guid: ff0144d427456da429008ce47b0d0b01, type: 2}
