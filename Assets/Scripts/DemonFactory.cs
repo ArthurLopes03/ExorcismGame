@@ -8,7 +8,7 @@ using static Unity.Burst.Intrinsics.Arm;
 public class DemonFactory : MonoBehaviour
 {
     public GameObject demonPrefab;
-    public void CreateDemon(Client client)
+    public Demon CreateDemon(Client client)
     { 
         Demon demon = Instantiate(demonPrefab).GetComponent<Demon>();
 
@@ -61,6 +61,8 @@ public class DemonFactory : MonoBehaviour
         //Set the temperment
         r = Random.Range(0, temperments.Count);
         demon.temperment = temperments[r];
+
+        return demon;
     }
 
     void ExcludeFromPool(List<Type> attributePool, Type excludedAttribute)

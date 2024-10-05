@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: Phlegmatic
   m_EditorClassIdentifier: 
   attributeTag: Phlegmatic
-  incompatibleAttributes: []
+  clues:
+  - {fileID: 11400000, guid: 0c3433426b74bcc47802d34625a68735, type: 2}
+  - {fileID: 11400000, guid: 810870117dcf0d34786177e4369ce427, type: 2}
+  - {fileID: 11400000, guid: a9534e755733a7742ab5501268edbb14, type: 2}
+  - {fileID: 11400000, guid: 6b7d0495cd27cb8498f28c0864f98c79, type: 2}

@@ -13,4 +13,7 @@ MonoBehaviour:
   m_Name: Sanguine
   m_EditorClassIdentifier: 
   attributeTag: Sanguine
-  incompatibleAttributes: []
+  clues:
+  - {fileID: 11400000, guid: 6b7d0495cd27cb8498f28c0864f98c79, type: 2}
+  - {fileID: 11400000, guid: 731f72ac294fe5f47a8728e331c9ee3c, type: 2}
+  - {fileID: 11400000, guid: 051f96e50846d574e8ac195b6d4fcd26, type: 2}

@@ -10,6 +10,12 @@ public class FactoryManager : MonoBehaviour
     [SerializeField]
     DemonFactory demonFactory;
 
+    [SerializeField]
+    ClientDescriptorFactory clientDescriptorFactory;
+
+    [SerializeField]
+    ClueFactory clueFactory;
+
     private void Start()
     {
         StartNewGame();
@@ -19,6 +25,10 @@ public class FactoryManager : MonoBehaviour
     {
         Client client = clientFactory.CreateClient();
 
-        demonFactory.CreateDemon(client);
+        Demon demon = demonFactory.CreateDemon(client);
+
+        clientDescriptorFactory.CreateDescriptors(client);
+
+        clueFactory.CreateClues(demon);
     }
 }

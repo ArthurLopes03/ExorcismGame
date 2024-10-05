@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Bogey
   m_EditorClassIdentifier: 
   attributeTag: Bogey
+  clues:
+  - {fileID: 11400000, guid: 5d2cdf0c2a0db594d86c5099c2254e91, type: 2}
+  - {fileID: 11400000, guid: d1591415009720a459595e7c06b61b30, type: 2}
   tempermentPool:
   - {fileID: 11400000, guid: ff0144d427456da429008ce47b0d0b01, type: 2}
   - {fileID: 11400000, guid: ff0144d427456da429008ce47b0d0b01, type: 2}

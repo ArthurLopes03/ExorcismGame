@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: Choleric
   m_EditorClassIdentifier: 
   attributeTag: Choleric
-  incompatibleAttributes: []
+  clues:
+  - {fileID: 11400000, guid: fcebcbc1a56334848b009a723764b78e, type: 2}
+  - {fileID: 11400000, guid: 04e5cb5d9ec4d614c9c7d0269950ce2e, type: 2}
+  - {fileID: 11400000, guid: 24414cea2f693a04182284dd5a75e1a8, type: 2}
+  - {fileID: 11400000, guid: 731f72ac294fe5f47a8728e331c9ee3c, type: 2}
