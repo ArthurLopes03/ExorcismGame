@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ab49a1892e5fc6498fbf72dab45179d, type: 3}
   m_Name: Unemployed
   m_EditorClassIdentifier: 
-  attributeTag: 
+  attributeTag: Unemployed
+  possibleRedHerrings: []
   tempermentPool:
   - {fileID: 11400000, guid: ff0144d427456da429008ce47b0d0b01, type: 2}
   - {fileID: 11400000, guid: ff0144d427456da429008ce47b0d0b01, type: 2}

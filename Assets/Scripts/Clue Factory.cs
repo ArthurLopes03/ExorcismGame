@@ -8,11 +8,11 @@ public class ClueFactory : MonoBehaviour
     public GameObject cluePrefab;
     public Transform listObject;
     List<Clue> cluesList;
-
-    public int randomClues;
-    public void CreateClues(Demon demon)
+    public void CreateClues(Demon demon, Client client, int randomClues, int redHerrings)
     {
         cluesList = new List<Clue>();
+
+        AddRedHerrings(client.attributes, redHerrings);
 
         cluesList.Add(SetClue(demon.kingdom.clues));
         cluesList.Add(SetClue(demon.type.clues));
@@ -27,6 +27,49 @@ public class ClueFactory : MonoBehaviour
             TextMeshProUGUI text = Instantiate(cluePrefab, listObject).GetComponentInChildren<TextMeshProUGUI>();
 
             text.text = clue.description;
+        }
+    }
+
+    void AddRedHerrings(List<ClientAttribute> clientAttributes, int redHerrings)
+    {
+        for(int i = 0; i < redHerrings; i++)
+        {
+            int giveUp = 0;
+
+        restart:
+            int counter = 0;
+            giveUp++;
+            if (giveUp == 5)
+                break;
+
+            int j = Random.Range(0, clientAttributes.Count);
+
+            if (clientAttributes[j].possibleRedHerrings == null || clientAttributes[j].possibleRedHerrings.Count == 0)
+                goto restart;
+
+            List<Clue> clues = clientAttributes[j].possibleRedHerrings;
+
+        tryagain:
+
+            int r = Random.Range(0, clues.Count);
+
+
+            if (cluesList.Contains(clues[r]))
+            {
+                if (counter == 10)
+                {
+                    goto restart;
+                }
+                else
+                {
+                    counter++;
+                    goto tryagain;
+                }
+            }
+            else
+            {
+                cluesList.Add(clues[r]);
+            }
         }
     }
 

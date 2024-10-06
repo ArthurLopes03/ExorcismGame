@@ -10,6 +10,9 @@ public class ClientDescriptorFactory : MonoBehaviour
 
     public Transform listObject;
 
+    public TextMeshProUGUI nameTag;
+    public TextMeshProUGUI jobTag;
+
     public void CreateDescriptors(Client client)
     {
         foreach (ClientAttribute attribtue in client.attributes)
@@ -18,5 +21,8 @@ public class ClientDescriptorFactory : MonoBehaviour
 
             text.text = attribtue.description;
         }
+
+        nameTag.text = "Name: " + client.clientName;
+        jobTag.text = "Occupation: " + client.job.attributeTag;
     }
 }

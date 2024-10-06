@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Gambler
   m_EditorClassIdentifier: 
   attributeTag: Gambler
+  possibleRedHerrings:
+  - {fileID: 11400000, guid: 161b893c76776414b9f8989c74715389, type: 2}
   tempermentPool:
   - {fileID: 11400000, guid: ff0144d427456da429008ce47b0d0b01, type: 2}
   - {fileID: 11400000, guid: ff0144d427456da429008ce47b0d0b01, type: 2}

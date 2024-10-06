@@ -16,6 +16,13 @@ public class FactoryManager : MonoBehaviour
     [SerializeField]
     ClueFactory clueFactory;
 
+    [SerializeField]
+    Ritual ritual;
+
+    public int clientAttributeCount;
+    public int randomClues;
+    public int redHerrings;
+
     private void Start()
     {
         StartNewGame();
@@ -23,12 +30,14 @@ public class FactoryManager : MonoBehaviour
 
     void StartNewGame()
     {
-        Client client = clientFactory.CreateClient();
+        Client client = clientFactory.CreateClient(clientAttributeCount);
 
         Demon demon = demonFactory.CreateDemon(client);
 
         clientDescriptorFactory.CreateDescriptors(client);
 
-        clueFactory.CreateClues(demon);
+        clueFactory.CreateClues(demon, client, randomClues, redHerrings);
+
+        ritual.demon = demon;
     }
 }

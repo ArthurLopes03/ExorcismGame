@@ -14,10 +14,7 @@ public class ClientFactory : MonoBehaviour
 
     public GameObject clientPrefab;
 
-    [SerializeField]
-    int clientAttributeCount;
-
-    public Client CreateClient()
+    public Client CreateClient(int clientAttributeCount)
     {
         // Create the client
         Client client = Instantiate(clientPrefab).GetComponent<Client>();
@@ -31,7 +28,7 @@ public class ClientFactory : MonoBehaviour
         AssignName(client);
 
         //Assign random attributes
-        AssignAttributes(client);
+        AssignAttributes(client, clientAttributeCount);
 
         return client;
     }
@@ -49,7 +46,7 @@ public class ClientFactory : MonoBehaviour
         client.clientName = name;
     }
 
-    void AssignAttributes(Client client)
+    void AssignAttributes(Client client, int clientAttributeCount)
     {
         Job job = client.job;
         for (int i = 0; i < clientAttributeCount; i++)
