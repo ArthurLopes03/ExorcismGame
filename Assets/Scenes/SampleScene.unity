@@ -2501,9 +2501,9 @@ MonoBehaviour:
   itemTag: {fileID: 1894668000}
   incantationTag: {fileID: 902635279}
   demon: {fileID: 0}
-  winText: {fileID: 0}
-  loseText: {fileID: 0}
-  Panel: {fileID: 0}
+  winText: {fileID: 1736212732}
+  loseText: {fileID: 1358126858}
+  Panel: {fileID: 1403479494}
 --- !u!4 &931024057
 Transform:
   m_ObjectHideFlags: 0
