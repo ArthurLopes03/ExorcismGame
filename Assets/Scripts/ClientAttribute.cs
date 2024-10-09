@@ -7,11 +7,7 @@ public class ClientAttribute : ScriptableObject
 {
     public string attributeTag;
 
-    public List<Clue> possibleRedHerrings;
-
     public List<Temperment> tempermentPool;
     public List<Kingdom> kingdomPool;
     public List<Type> typePool;
-
-    public string description;
 }

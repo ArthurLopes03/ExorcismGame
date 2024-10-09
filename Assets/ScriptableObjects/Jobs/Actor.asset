@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Actor
   m_EditorClassIdentifier: 
   attributeTag: Actor
+  possibleRedHerrings: []
   tempermentPool:
   - {fileID: 11400000, guid: 382f13e741491574495d8ffa9ce68718, type: 2}
   - {fileID: 11400000, guid: 382f13e741491574495d8ffa9ce68718, type: 2}
@@ -29,7 +30,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9b712d73dd5e54349a57df6e2a98dd9b, type: 2}
   - {fileID: 11400000, guid: 12120917826303e44a33f77ca625c12a, type: 2}
   - {fileID: 11400000, guid: 4174c47a94f70314c85f82ca5ab08204, type: 2}
-  description: 
   attributesPool:
   - {fileID: 11400000, guid: 8fef6a398793ba34e9410f1bb96fa333, type: 2}
   - {fileID: 11400000, guid: 8fef6a398793ba34e9410f1bb96fa333, type: 2}
@@ -39,3 +39,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 059c7b9a7f2d7ca45be2e4c4a8daf4c6, type: 2}
   - {fileID: 11400000, guid: 56d0c741f1bd3f944b8fe9dcc970c268, type: 2}
   - {fileID: 11400000, guid: a2936eb7c413d3b4eaf467e6cc76d18e, type: 2}
+  - {fileID: 11400000, guid: 5f72c7e5752a73946bd1208792c5e24f, type: 2}
+  - {fileID: 11400000, guid: 5f72c7e5752a73946bd1208792c5e24f, type: 2}
+  - {fileID: 11400000, guid: ae21df42be011bc48bbad0ddffd66152, type: 2}
+  - {fileID: 11400000, guid: ae21df42be011bc48bbad0ddffd66152, type: 2}

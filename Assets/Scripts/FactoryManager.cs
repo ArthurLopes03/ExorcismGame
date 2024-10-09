@@ -11,17 +11,18 @@ public class FactoryManager : MonoBehaviour
     DemonFactory demonFactory;
 
     [SerializeField]
-    ClientDescriptorFactory clientDescriptorFactory;
+    MedicalReport medicalReport;
 
     [SerializeField]
-    ClueFactory clueFactory;
+    ClientEvalForm evalForm;
 
     [SerializeField]
-    Ritual ritual;
+    SymptomsReport symptomsReport;
+
+    [SerializeField]
+    GuessInput guessInput;
 
     public int clientAttributeCount;
-    public int randomClues;
-    public int redHerrings;
 
     private void Start()
     {
@@ -34,10 +35,12 @@ public class FactoryManager : MonoBehaviour
 
         Demon demon = demonFactory.CreateDemon(client);
 
-        clientDescriptorFactory.CreateDescriptors(client);
+        medicalReport.CreateMedicalReport(client, demon);
 
-        clueFactory.CreateClues(demon, client, randomClues, redHerrings);
+        evalForm.CreateEvaluationSheet(client);
 
-        ritual.demon = demon;
+        symptomsReport.CreateList(demon);
+
+        guessInput.demon = demon;
     }
 }

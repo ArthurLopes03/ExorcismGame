@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e8e3eb1465bf164286fa6ead0af27ec, type: 3}
   m_Name: Lazy
   m_EditorClassIdentifier: 
-  attributeTag: Lazy
+  attributeTag: '- Lazy'
   possibleRedHerrings:
   - {fileID: 11400000, guid: 6566dd8379d1c424680da01b2e40cea8, type: 2}
   tempermentPool:
@@ -32,4 +32,3 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9b712d73dd5e54349a57df6e2a98dd9b, type: 2}
   - {fileID: 11400000, guid: 9b712d73dd5e54349a57df6e2a98dd9b, type: 2}
   - {fileID: 11400000, guid: 9b712d73dd5e54349a57df6e2a98dd9b, type: 2}
-  description: People around them say they're unreliable and lazy.

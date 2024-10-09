@@ -15,8 +15,6 @@ MonoBehaviour:
   attributeTag: Fury
   clues:
   - {fileID: 11400000, guid: 04e5cb5d9ec4d614c9c7d0269950ce2e, type: 2}
-  - {fileID: 11400000, guid: 15c0432e934f83746932f3249872e048, type: 2}
-  - {fileID: 11400000, guid: 15c0432e934f83746932f3249872e048, type: 2}
   tempermentPool:
   - {fileID: 11400000, guid: 96dd70b327ce1e5409f56bf4450258ea, type: 2}
   - {fileID: 11400000, guid: 96dd70b327ce1e5409f56bf4450258ea, type: 2}

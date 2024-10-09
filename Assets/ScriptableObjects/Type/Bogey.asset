@@ -15,11 +15,12 @@ MonoBehaviour:
   attributeTag: Bogey
   clues:
   - {fileID: 11400000, guid: 5d2cdf0c2a0db594d86c5099c2254e91, type: 2}
-  - {fileID: 11400000, guid: d1591415009720a459595e7c06b61b30, type: 2}
+  - {fileID: 11400000, guid: 76360c5df1f8d1e42b6a7837b66bed78, type: 2}
   tempermentPool:
   - {fileID: 11400000, guid: ff0144d427456da429008ce47b0d0b01, type: 2}
   - {fileID: 11400000, guid: ff0144d427456da429008ce47b0d0b01, type: 2}
   - {fileID: 11400000, guid: ff0144d427456da429008ce47b0d0b01, type: 2}
   - {fileID: 11400000, guid: f677d98561d04e040ba1b148a762fafc, type: 2}
   - {fileID: 11400000, guid: f677d98561d04e040ba1b148a762fafc, type: 2}
-  incompatibleTemperment: []
+  incompatibleTemperment:
+  - {fileID: 11400000, guid: 382f13e741491574495d8ffa9ce68718, type: 2}

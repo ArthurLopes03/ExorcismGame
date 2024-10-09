@@ -12,10 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e8e3eb1465bf164286fa6ead0af27ec, type: 3}
   m_Name: Chain Smoker
   m_EditorClassIdentifier: 
-  attributeTag: Chain Smoker
-  possibleRedHerrings:
-  - {fileID: 11400000, guid: 13743613e9a943643966f2b7b78fd089, type: 2}
-  - {fileID: 11400000, guid: 0c3433426b74bcc47802d34625a68735, type: 2}
+  attributeTag: '- Chain Smoker'
   tempermentPool:
   - {fileID: 11400000, guid: 96dd70b327ce1e5409f56bf4450258ea, type: 2}
   - {fileID: 11400000, guid: 96dd70b327ce1e5409f56bf4450258ea, type: 2}
@@ -24,4 +21,3 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 77722969e57886c4f8f8cc8b3957428a, type: 2}
   - {fileID: 11400000, guid: 77722969e57886c4f8f8cc8b3957428a, type: 2}
   typePool: []
-  description: Friends say they smoke too much.

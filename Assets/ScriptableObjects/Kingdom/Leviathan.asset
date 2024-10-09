@@ -13,9 +13,7 @@ MonoBehaviour:
   m_Name: Leviathan
   m_EditorClassIdentifier: 
   attributeTag: Leviathan
-  clues:
-  - {fileID: 11400000, guid: 4edb1f8bf3d42624a9ead71588280259, type: 2}
-  - {fileID: 11400000, guid: dd6d61721a182af47907193104c0c284, type: 2}
+  clues: []
   typePool: []
   tempermentPool:
   - {fileID: 11400000, guid: 96dd70b327ce1e5409f56bf4450258ea, type: 2}

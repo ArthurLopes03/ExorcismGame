@@ -37,12 +37,12 @@ public class DemonFactory : MonoBehaviour
         //Remove the incompatabilities
         foreach(Type attribute in demon.kingdom.incompatibleType)
         {
-            ExcludeFromPool(types, attribute);
+            types.RemoveAll(t => t == attribute);
         }
 
         foreach (Temperment attribute in demon.kingdom.incompatibleTemperment)
         {
-            ExcludeFromPool(temperments, attribute);
+            temperments.RemoveAll(x => x == attribute);
         }
 
         //Set the Type
@@ -55,7 +55,7 @@ public class DemonFactory : MonoBehaviour
         //Remove the incompatabilities
         foreach(Temperment attribute in demon.type.incompatibleTemperment)
         {
-            ExcludeFromPool(temperments, attribute);
+            temperments.RemoveAll(x => x == attribute);
         }
 
         //Set the temperment
@@ -63,27 +63,6 @@ public class DemonFactory : MonoBehaviour
         demon.temperment = temperments[r];
 
         return demon;
-    }
-
-    void ExcludeFromPool(List<Type> attributePool, Type excludedAttribute)
-    {
-        for (int i = attributePool.Count; i < 0; i--)
-        {
-            if(attributePool[i] == excludedAttribute)
-            {
-                attributePool.RemoveAt(i);
-            }
-        }
-    }
-    void ExcludeFromPool(List<Temperment> attributePool, Temperment excludedAttribute)
-    {
-        for (int i = attributePool.Count; i < 0; i--)
-        {
-            if (attributePool[i] == excludedAttribute)
-            {
-                attributePool.RemoveAt(i);
-            }
-        }
     }
 
     void CreateKingdomPool(List<Kingdom> kingdoms, Client client)

@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3375680966318274603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6542694442325892985}
+  - component: {fileID: 6120088870397719856}
+  m_Layer: 0
+  m_Name: Factory Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6542694442325892985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3375680966318274603}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.706711, y: -0.7901423, z: -0.12655795}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4665078675326682180}
+  - {fileID: 7621794546175202335}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6120088870397719856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3375680966318274603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a5a4f399d449345bd2a5eb121418f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clientFactory: {fileID: 2583464021027563710}
+  demonFactory: {fileID: 6146697645268377134}
+  clientAttributeCount: 3
+  randomClues: 1
+  redHerrings: 2
+--- !u!1 &5844487881973034382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4665078675326682180}
+  - component: {fileID: 2583464021027563710}
+  m_Layer: 0
+  m_Name: Client Factory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4665078675326682180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5844487881973034382}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.3821225, y: 1.1793582, z: 0.13259405}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6542694442325892985}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2583464021027563710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5844487881973034382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3333a5af64c77414eb3da827bf972621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jobsPool:
+  - {fileID: 11400000, guid: 0587cd986342f7545a65881acbf62e82, type: 2}
+  - {fileID: 11400000, guid: 51ada4f499f603a4bb7e5c19cead582e, type: 2}
+  - {fileID: 11400000, guid: 2734b55f4e9249c44984b60e6898a2fc, type: 2}
+  - {fileID: 11400000, guid: 04364c06512923c4fb807fb55991c0c3, type: 2}
+  - {fileID: 11400000, guid: 619c1f49656077940869f7a1550a5733, type: 2}
+  attributePool:
+  - {fileID: 11400000, guid: 56d0c741f1bd3f944b8fe9dcc970c268, type: 2}
+  - {fileID: 11400000, guid: 059c7b9a7f2d7ca45be2e4c4a8daf4c6, type: 2}
+  - {fileID: 11400000, guid: a2936eb7c413d3b4eaf467e6cc76d18e, type: 2}
+  - {fileID: 11400000, guid: 8fef6a398793ba34e9410f1bb96fa333, type: 2}
+  - {fileID: 11400000, guid: 0d770be0d7741914289f1b999e56c34c, type: 2}
+  - {fileID: 11400000, guid: ae21df42be011bc48bbad0ddffd66152, type: 2}
+  firstNames:
+  - Jake
+  - Sam
+  - Sarrah
+  - Tom
+  - Tara
+  - Lora
+  lastNames:
+  - Miller
+  - Jackson
+  - Collins
+  - O'Reily
+  - Smith
+  clientPrefab: {fileID: 4675158247392321594, guid: 1f76024a6cea8df409db427089e1398e, type: 3}
+--- !u!1 &8271859085521673466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7621794546175202335}
+  - component: {fileID: 6146697645268377134}
+  m_Layer: 0
+  m_Name: Demon Factory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7621794546175202335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8271859085521673466}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.227439, y: 2.2512846, z: 0.09176651}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6542694442325892985}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6146697645268377134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8271859085521673466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdff581457299004783be81d904d7d94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  demonPrefab: {fileID: 7994697578579396345, guid: bbeba6b9e2a06ef46a5045fb847d790a, type: 3}

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f78dc29d4096a84ebc5fc3b724fc9b2, type: 3}
   m_Name: Nightmares
   m_EditorClassIdentifier: 
-  description: Every time I go to sleep, I have these terrible nightmares.
+  description: '- Client has experienced nightmares'
