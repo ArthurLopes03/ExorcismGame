@@ -37,6 +37,9 @@ public class MedicalReport : MonoBehaviour
             case "Scratches":
                 scratches.SetActive(true);
                 break;
+            default:
+                Debug.Log("Medical Keyword Error");
+                break;
         }
     }
 }

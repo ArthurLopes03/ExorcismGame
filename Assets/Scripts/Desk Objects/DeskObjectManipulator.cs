@@ -11,9 +11,13 @@ public class DeskObjectManipulator : MonoBehaviour
     private DeskObjectManager deskObjectManager;
     private DeskObjectSwitch deskObjectSwitch;
 
+    public bool switchable = true;
+
     private void Start()
     {
-        deskObjectSwitch = GetComponentInParent<DeskObjectSwitch>();
+        if(switchable)
+            deskObjectSwitch = GetComponentInParent<DeskObjectSwitch>();
+
         parentTransform = transform.parent;
         deskObjectManager = FindAnyObjectByType<DeskObjectManager>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -59,7 +63,7 @@ public class DeskObjectManipulator : MonoBehaviour
 
     private void OnMouseOver()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1) && switchable)
             deskObjectSwitch.SwitchObjects();
     }
 

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Asmodean
   m_EditorClassIdentifier: 
   attributeTag: Asmodian
-  clues: []
+  clues:
+  - {fileID: 11400000, guid: 640635a694d9d0545a3b56450c42b439, type: 2}
   typePool:
   - {fileID: 11400000, guid: 4174c47a94f70314c85f82ca5ab08204, type: 2}
   - {fileID: 11400000, guid: 4174c47a94f70314c85f82ca5ab08204, type: 2}
