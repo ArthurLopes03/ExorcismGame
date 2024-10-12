@@ -7,10 +7,15 @@ public class DeskObjectManipulator : MonoBehaviour
     private bool dragging = false;
     private Vector3 offset;
     private SpriteRenderer spriteRenderer;
-    public DeskObjectManager deskObjectManager;
+    private Transform parentTransform;
+    private DeskObjectManager deskObjectManager;
+    public DeskObjectSwitch deskObjectSwitch;
 
     private void Start()
     {
+        deskObjectSwitch = GetComponentInParent<DeskObjectSwitch>();
+        parentTransform = transform.parent;
+        deskObjectManager = FindAnyObjectByType<DeskObjectManager>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
@@ -19,7 +24,7 @@ public class DeskObjectManipulator : MonoBehaviour
     {
         if(dragging)
         {
-            transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition) + offset;
+            parentTransform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition) + offset;
         }
     }
 
@@ -29,7 +34,7 @@ public class DeskObjectManipulator : MonoBehaviour
         dragging = true;
         spriteRenderer.sortingOrder = deskObjectManager.peak;
 
-        foreach(Transform child in transform)
+        foreach (Transform child in transform)
         {
             try
             {
@@ -50,6 +55,12 @@ public class DeskObjectManipulator : MonoBehaviour
         }
 
         deskObjectManager.peak += 2;
+    }
+
+    private void OnMouseOver()
+    {
+        if (Input.GetMouseButtonDown(1))
+            deskObjectSwitch.SwitchObjects();
     }
 
     private void OnMouseUp()
