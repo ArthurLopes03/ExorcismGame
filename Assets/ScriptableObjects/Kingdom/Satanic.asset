@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Satanic
   m_EditorClassIdentifier: 
   attributeTag: Satanic
-  clues:
-  - {fileID: 11400000, guid: 04e5cb5d9ec4d614c9c7d0269950ce2e, type: 2}
+  clues: []
   typePool:
   - {fileID: 11400000, guid: 12120917826303e44a33f77ca625c12a, type: 2}
   - {fileID: 11400000, guid: 12120917826303e44a33f77ca625c12a, type: 2}

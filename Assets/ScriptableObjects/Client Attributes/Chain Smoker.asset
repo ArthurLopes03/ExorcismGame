@@ -21,3 +21,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 77722969e57886c4f8f8cc8b3957428a, type: 2}
   - {fileID: 11400000, guid: 77722969e57886c4f8f8cc8b3957428a, type: 2}
   typePool: []
+  redHerrings:
+  - {fileID: 11400000, guid: 062219fe648f7314598e95ccbb862962, type: 2}

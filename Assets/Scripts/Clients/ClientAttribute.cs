@@ -10,4 +10,6 @@ public class ClientAttribute : ScriptableObject
     public List<Temperment> tempermentPool;
     public List<Kingdom> kingdomPool;
     public List<Type> typePool;
+
+    public List<Clue> redHerrings;
 }

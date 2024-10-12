@@ -9,9 +9,9 @@ public class SymptomsReport : MonoBehaviour
 
     public void CreateList(Demon demon)
     {
-        foreach (Clue clue in demon.type.clues)
-        {
-            symptomsList.text += clue.description + "\n";
-        }
+        //foreach (Clue clue in demon.type.clues)
+        //{
+        //    symptomsList.text += clue.description + "\n";
+        //}
     }
 }

@@ -14,10 +14,10 @@ public class FactoryManager : MonoBehaviour
     MedicalReport medicalReport;
 
     [SerializeField]
-    ClientEvalForm evalForm;
+    ClueFactory clueFactory;
 
     [SerializeField]
-    SymptomsReport symptomsReport;
+    ClientEvalForm evalForm;
 
     [SerializeField]
     GuessInput guessInput;
@@ -34,12 +34,10 @@ public class FactoryManager : MonoBehaviour
         Client client = clientFactory.CreateClient(clientAttributeCount);
 
         Demon demon = demonFactory.CreateDemon(client);
-
-        medicalReport.CreateMedicalReport(client, demon);
+        
+        clueFactory.ProcessClues(demon, client);
 
         evalForm.CreateEvaluationSheet(client);
-
-        symptomsReport.CreateList(demon);
 
         guessInput.demon = demon;
     }

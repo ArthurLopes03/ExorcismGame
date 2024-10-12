@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Alcoholic
   m_EditorClassIdentifier: 
   attributeTag: '- Alcoholic'
-  possibleRedHerrings: []
   tempermentPool: []
   kingdomPool: []
   typePool: []
+  redHerrings:
+  - {fileID: 11400000, guid: 6b13c491c9e537743a68d32c2eba6553, type: 2}

@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5796b8a4e281656419ab356a40779603, type: 3}
-  m_Name: Phlegmatic
+  m_Script: {fileID: 11500000, guid: 799b2f45968f51940bf6c4a45eec4e1d, type: 3}
+  m_Name: Brain
   m_EditorClassIdentifier: 
-  attributeTag: Phlegmatic
-  clues:
-  - {fileID: 11400000, guid: 062219fe648f7314598e95ccbb862962, type: 2}
-  - {fileID: 11400000, guid: 6c895ce10a8619943b5a49e17a9b2fbf, type: 2}
+  medicalKeyword: Brain

@@ -9,7 +9,7 @@ public class DeskObjectManipulator : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Transform parentTransform;
     private DeskObjectManager deskObjectManager;
-    public DeskObjectSwitch deskObjectSwitch;
+    private DeskObjectSwitch deskObjectSwitch;
 
     private void Start()
     {
