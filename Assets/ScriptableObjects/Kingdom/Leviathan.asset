@@ -15,7 +15,13 @@ MonoBehaviour:
   attributeTag: Leviathan
   clues:
   - {fileID: 11400000, guid: 640635a694d9d0545a3b56450c42b439, type: 2}
-  typePool: []
+  - {fileID: 11400000, guid: bf68acbbc69ff9844bf0374eadb19e9c, type: 2}
+  typePool:
+  - {fileID: 11400000, guid: 9b712d73dd5e54349a57df6e2a98dd9b, type: 2}
+  - {fileID: 11400000, guid: 012df1b103c87e74db6980fea027a6cb, type: 2}
+  - {fileID: 11400000, guid: 04733667ada8f9b4f9c547f084477555, type: 2}
+  - {fileID: 11400000, guid: 12120917826303e44a33f77ca625c12a, type: 2}
+  - {fileID: 11400000, guid: 4174c47a94f70314c85f82ca5ab08204, type: 2}
   tempermentPool:
   - {fileID: 11400000, guid: 96dd70b327ce1e5409f56bf4450258ea, type: 2}
   - {fileID: 11400000, guid: 96dd70b327ce1e5409f56bf4450258ea, type: 2}

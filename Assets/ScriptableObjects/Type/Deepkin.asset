@@ -10,19 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a42232448a65a4489e3e88b75aadf48, type: 3}
-  m_Name: Fury
+  m_Name: Deepkin
   m_EditorClassIdentifier: 
-  attributeTag: Fury
+  attributeTag: Deepkin
   clues:
-  - {fileID: 11400000, guid: 3ee80b4df86c4cb4aae90d477c7bfa5f, type: 2}
+  - {fileID: 11400000, guid: 640635a694d9d0545a3b56450c42b439, type: 2}
   - {fileID: 11400000, guid: 04e5cb5d9ec4d614c9c7d0269950ce2e, type: 2}
-  - {fileID: 11400000, guid: d554c9ae3ea766542860565cd8b7250f, type: 2}
+  - {fileID: 11400000, guid: 5833765002218e440be5f1962d89977e, type: 2}
   tempermentPool:
   - {fileID: 11400000, guid: 96dd70b327ce1e5409f56bf4450258ea, type: 2}
   - {fileID: 11400000, guid: 96dd70b327ce1e5409f56bf4450258ea, type: 2}
   - {fileID: 11400000, guid: 96dd70b327ce1e5409f56bf4450258ea, type: 2}
-  - {fileID: 11400000, guid: 96dd70b327ce1e5409f56bf4450258ea, type: 2}
-  - {fileID: 11400000, guid: 382f13e741491574495d8ffa9ce68718, type: 2}
-  - {fileID: 11400000, guid: 382f13e741491574495d8ffa9ce68718, type: 2}
-  incompatibleTemperment:
   - {fileID: 11400000, guid: ff0144d427456da429008ce47b0d0b01, type: 2}
+  - {fileID: 11400000, guid: ff0144d427456da429008ce47b0d0b01, type: 2}
+  - {fileID: 11400000, guid: ff0144d427456da429008ce47b0d0b01, type: 2}
+  incompatibleTemperment: []
